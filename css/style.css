@@ -8,6 +8,8 @@
 }
 
 body {
+    box-sizing: border-box;
+    width: 100%;
     font-family: "Roboto", sans-serif;
     color: var(--color-main);
     background-color: var(--bg-main);
@@ -151,6 +153,13 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--color-contrast);
     padding-top: 100px;
     padding-bottom: 100px;
+}
+
+.numbers-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 40px;
 }
 
 .statistics {
