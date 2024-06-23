@@ -153,7 +153,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .about__text {
-    margin: 0 0 65px;
+    margin-left: 300px;
     max-width: 540px;
     text-align: center;
     justify-content: center;
@@ -204,7 +204,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .stat-number {
     font-size: 21px;
-    font-weight: medium;
     padding-left: 10px;
 }
 
@@ -221,10 +220,24 @@ h1, h2, h3, h4, h5, h6 {
     padding-bottom: 100px;
 }
 
+.works-title {
+    font-size: 36px;
+    margin: 0 0 60px;
+    text-align: center;
+}
+
+.works-text {
+    margin-left: 300px;
+    max-width: 540px;
+    text-align: center;
+    justify-content: center;
+}
+
+
 .video-container {
     position: relative;
     width: 640px;
-    margin: 0;
+    margin: 60px 0 60px;
 }
 
 .video-thumbnail {
