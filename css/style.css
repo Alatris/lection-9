@@ -133,6 +133,12 @@ h1, h2, h3, h4, h5, h6 {
     max-width: 540px;
 }
 
+.about__title {
+    font-size: 36px;
+    margin: 0 0 60px;
+    text-align: center;
+}
+
 .about__text {
     margin: 0 0 65px;
 }
@@ -206,7 +212,7 @@ h1, h2, h3, h4, h5, h6 {
 .play-button {
     position: absolute;
     top: 50%;
-    left: 85%;
+    left: 90%;
     transform: translate(-50%, -50%);
     width: 80px;
     height: 80px;
