@@ -1,0 +1,49 @@
+.numbers {
+  background: var(--bg-accent);
+  color: var(--color-contrast);
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.numbers-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.statistics {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.stat-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+
+.stat-icon {
+  width: 50px;
+  height: auto;
+}
+
+.stat-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0;
+  text-align: center;
+}
+
+.stat-number {
+  font-size: 21px;
+  padding-left: 10px;
+}
+
+.stat-label {
+  font-size: 16px;
+  padding-left: 20px;
+}
