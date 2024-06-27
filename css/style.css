@@ -582,6 +582,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .about__text {
   max-width: 540px;
+  margin-right: auto;
+  margin-left: auto;
   text-align: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -672,12 +674,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .works-title {
   font-size: 36px;
-  margin: 0 0 60px;
   text-align: center;
 }
 
 .works-text {
   max-width: 540px;
+  margin: 0 auto;
   text-align: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
