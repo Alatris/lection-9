@@ -690,10 +690,11 @@ h1, h2, h3, h4, h5, h6 {
 .video-container {
   position: relative;
   max-width: 640px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 60px;
-  margin-bottom: 60px;
+  margin: 60px auto auto;
+  display: block;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .video-thumbnail {

@@ -1,10 +1,9 @@
 .video-container {
   position: relative;
   max-width: 640px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 60px;
-  margin-bottom: 60px;
+  margin: 60px auto auto;
+  display: block;
+  justify-content: center;
 }
 
 .video-thumbnail {
