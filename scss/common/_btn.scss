@@ -12,12 +12,13 @@
   align-items: center;
   padding: 20px 40px;
   box-sizing: border-box;
-  transition: 0.5s;
+  transition-delay: 0.7s;
 }
 
 .btn:hover, .btn:focus {
   background: var(--color-contrast);
   color: var(--color-accent);
+  transition: 1s ease;
 }
 
 .btn:active {
