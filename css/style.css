@@ -413,11 +413,15 @@ h1, h2, h3, h4, h5, h6 {
   padding: 20px 40px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  -webkit-transition-delay: 0.7s;
+          transition-delay: 0.7s;
 }
 
 .btn:hover, .btn:focus {
   background: var(--color-contrast);
   color: var(--color-accent);
+  -webkit-transition: 1s ease;
+  transition: 1s ease;
 }
 
 .btn:active {
@@ -434,7 +438,7 @@ h1, h2, h3, h4, h5, h6 {
 .play-button {
   position: absolute;
   top: 50%;
-  left: 90%;
+  left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   width: 80px;
@@ -490,11 +494,23 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--color-title);
   letter-spacing: 0.1em;
   text-decoration: none;
+  -webkit-transition: color 0.7s ease, opacity 0.7s ease, -webkit-text-decoration 0.7s ease;
+  transition: color 0.7s ease, opacity 0.7s ease, -webkit-text-decoration 0.7s ease;
+  transition: color 0.7s ease, text-decoration 0.7s ease, opacity 0.7s ease;
+  transition: color 0.7s ease, text-decoration 0.7s ease, opacity 0.7s ease, -webkit-text-decoration 0.7s ease;
+  -webkit-transition-delay: 1s;
+          transition-delay: 1s;
 }
 
 .nav__link:hover,
 .nav__link:focus {
   text-decoration: underline;
+  -webkit-transition: -webkit-text-decoration 2s ease 1s;
+  transition: -webkit-text-decoration 2s ease 1s;
+  transition: text-decoration 2s ease 1s;
+  transition: text-decoration 2s ease 1s, -webkit-text-decoration 2s ease 1s;
+  -webkit-transition-delay: 0.5s;
+          transition-delay: 0.5s;
 }
 
 .nav__link:active {
@@ -565,7 +581,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .about__text {
-  margin-left: 300px;
   max-width: 540px;
   text-align: center;
   -webkit-box-pack: center;
@@ -662,7 +677,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .works-text {
-  margin-left: 300px;
   max-width: 540px;
   text-align: center;
   -webkit-box-pack: center;
@@ -672,7 +686,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .video-container {
   position: relative;
-  width: 640px;
+  max-width: 640px;
   margin: 60px 0 60px;
 }
 
