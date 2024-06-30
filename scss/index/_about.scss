@@ -1,22 +1,23 @@
 .about {
   padding-top: 100px;
   padding-bottom: 100px;
+
+  &__content {
+    max-width: 540px;
+  }
+
+  &__title {
+    font-size: 36px;
+    margin: 0 0 60px;
+    text-align: center;
+  }
+
+  &__text {
+    max-width: 540px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    justify-content: center;
+  }
 }
 
-.about__content {
-  max-width: 540px;
-}
-
-.about__title {
-  font-size: 36px;
-  margin: 0 0 60px;
-  text-align: center;
-}
-
-.about__text {
-  max-width: 540px;
-  margin-right: auto;
-  margin-left: auto;
-  text-align: center;
-  justify-content: center;
-}

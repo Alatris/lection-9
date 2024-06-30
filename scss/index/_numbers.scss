@@ -3,13 +3,14 @@
   color: var(--color-contrast);
   padding-top: 100px;
   padding-bottom: 100px;
+
+  &-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
 }
 
-.numbers-item {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
 
 .statistics {
   display: flex;

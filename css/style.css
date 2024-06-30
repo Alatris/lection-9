@@ -709,28 +709,26 @@ h1, h2, h3, h4, h5, h6 {
   padding-top: 50px;
   padding-bottom: 50px;
 }
-
 .footer__name {
   color: var(--color-contrast);
   margin: 0 0 20px;
   font-size: 21px;
 }
-
 .footer__copyright {
   font-size: 13px;
   margin: 0;
 }
-
 @media screen and (max-width: 750px) {
-  .footer {
+  .footer .footer {
     padding-top: 20px;
     padding-bottom: 20px;
   }
-  .footer__name {
+  .footer .footer__name {
     font-size: 16px;
     margin-bottom: 10px;
   }
 }
+
 .numbers {
   background: var(--bg-accent);
   color: var(--color-contrast);
